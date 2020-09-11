@@ -1,0 +1,6 @@
+<div class="test-instructions">
+    <div *ngIf="slide">
+        <app-slide [slide]="slide" (selectAnswer)="onSelectAnswer($event, value)"></app-slide>
+    </div>
+    <button class="continue" mat-raised-button color="primary" *ngIf="canContinue" (click)="continue()">Continue</button>
+</div>

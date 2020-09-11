@@ -1,0 +1,14 @@
+<ng-container *ngIf="slide.isInstructions">
+  <p *ngFor="let line of slide.instructions">{{line}}</p>
+</ng-container>
+<ng-container *ngIf="slide.isQuestion">
+  <p *ngIf="slide.isDemo">Demo</p>
+  <video autoplay [src]="slide.videoSrc" (click)="toggleVideo($event)" width="600" height="400" #videoPlayer>
+    Browser not supported
+  </video>
+  <div class="slide-choices" *ngIf="slide.choices">
+    <mat-button-toggle-group [value]="value" (change)="onChange($event)">
+      <mat-button-toggle *ngFor="let choice of slide.choices" [value]="choice">{{choice | testTranslate}}</mat-button-toggle>
+    </mat-button-toggle-group>
+  </div>
+</ng-container>
