@@ -2,9 +2,9 @@
     "tests": [
         {
             "id": "cam-face-task",
-            "title": "CAM Face Task",
-            "description": "descriptionnnnnnn fkfks",
-            "credits": "Credits a ...",
+            "title": "The Cambridge Mindreading Face-Voice Battery",
+            "description": "Face Task - Child Version",
+            "credits": "Developed by Ofer Golan & Simon Baron-Cohen, 2014",
             "languages": ["en", "fr"],
             "source": "assets/cam-face-task.json"
         }

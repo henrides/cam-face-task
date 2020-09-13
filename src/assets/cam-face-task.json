@@ -1,0 +1,459 @@
+{
+    "avg": 19.2,
+    "stddev": 3.7,
+    "instructions": "instructions1",
+    "demoSlides": [
+        {
+            "id": "0903001M4V",
+            "videoSrc": "assets/videos/0903001M4Vadmiring.mp4",
+            "answer": "liking",
+            "choices": [ "sad", "angry", "liking", "bored" ]
+        },
+        {
+            "id": "1801301Y7V",
+            "videoSrc": "assets/videos/1801301Y7Vrestless.mp4",
+            "answer": "upset",
+            "choices": [ "upset", "kind", "tired", "surprised" ]
+        }
+    ],
+    "demoCompleteInstructions": "after-demo-instructions",
+    "finishThanks": "finish-thanks",
+    "slides": [
+        {
+            "id": "0107202C1V",
+            "videoSrc": "assets/videos/0107202C1Vunfriendly.mp4",
+            "answer": "unfriendly",
+            "choices": [ "unfriendly", "shy", "worried", "surprised" ]
+        },
+        {
+            "id": "0107202S2V",
+            "videoSrc": "assets/videos/0107202S2Vunfriendly.mp4",
+            "answer": "unfriendly",
+            "choices": [ "kind", "unfriendly", "liked", "afraid" ]
+        },
+        {
+            "id": "0107202M4V",
+            "videoSrc": "assets/videos/0107202M4Vunfriendly.mp4",
+            "answer": "unfriendly",
+            "choices": [ "liked", "sure", "unfriendly", "disgusted" ]
+        },
+        {
+            "id": "1004001M4V",
+            "videoSrc": "assets/videos/1004001M4Vundecided.mp4",
+            "answer": "undecided",
+            "choices": [ "hopeful", "stubborn", "embarrassed", "undecided" ]
+        },
+        {
+            "id": "1004001M5V",
+            "videoSrc": "assets/videos/1004001M5Vundecided.mp4",
+            "answer": "undecided",
+            "choices": [ "undecided", "playful", "bothered", "amused" ]
+        },
+        {
+            "id": "1004001Y8V",
+            "videoSrc": "assets/videos/1004001Y8Vundecided.mp4",
+            "answer": "undecided",
+            "choices": [ "curious", "undecided", "sure", "angry" ]
+        },
+        {
+            "id": "0600402M4V",
+            "videoSrc": "assets/videos/0600402M4Vnervous.mp4",
+            "answer": "nervous",
+            "choices": [ "nervous", "bored", "unkind", "surprised" ]
+        },
+        {
+            "id": "0600402S4V",
+            "videoSrc": "assets/videos/0600402S4Vnervous.mp4",
+            "answer": "nervous",
+            "choices": [ "wild", "nervous", "surprised", "annoyed" ]
+        },
+        {
+            "id": "0600402Y7V",
+            "videoSrc": "assets/videos/0600402Y7Vnervous.mp4",
+            "answer": "nervous",
+            "choices": [ "fond", "sorry", "nervous", "lonely" ]
+        },
+        {
+            "id": "1301501M2V",
+            "videoSrc": "assets/videos/1301501M2Vloving.mp4",
+            "answer": "loving",
+            "choices": [ "polite", "joking", "thinking", "loving" ]
+        },
+        {
+            "id": "1301501S3V",
+            "videoSrc": "assets/videos/1301501S3Vloving.mp4",
+            "answer": "loving",
+            "choices": [ "loving", "unsure", "worried", "mean" ]
+        },
+        {
+            "id": "1301501Y2V",
+            "videoSrc": "assets/videos/1301501Y2Vloving.mp4",
+            "answer": "loving",
+            "choices": [ "hopeful", "loving", "playful", "unsure" ]
+        },
+        {
+            "id": "1900903C2V",
+            "videoSrc": "assets/videos/1900903C2Vjealous.mp4",
+            "answer": "jealous",
+            "choices": [ "ashamed", "ignoring", "jealous", "bored" ]
+        },
+        {
+            "id": "1900903C3V",
+            "videoSrc": "assets/videos/1900903C3Vjealous.mp4",
+            "answer": "jealous",
+            "choices": [ "sorry", "believing", "embarrassed", "jealous" ]
+        },
+        {
+            "id": "1900903Y1V",
+            "videoSrc": "assets/videos/1900903Y1Vjealous.mp4",
+            "answer": "jealous",
+            "choices": [ "jealous", "disappointed", "nervous", "upset" ]
+        },
+        {
+            "id": "2000801C5V",
+            "videoSrc": "assets/videos/2000801C5Vembarrassed.mp4",
+            "answer": "embarrassed",
+            "choices": [ "embarrassed", "annoyed", "hurt", "hateful" ]
+        },
+        {
+            "id": "2000801M8V",
+            "videoSrc": "assets/videos/2000801M8Vembarrassed.mp4",
+            "answer": "embarrassed",
+            "choices": [ "sad", "embarrassed", "furious", "desperate" ]
+        },
+        {
+            "id": "2000801Y3V",
+            "videoSrc": "assets/videos/2000801Y3Vembarrassed.mp4",
+            "answer": "embarrassed",
+            "choices": [ "jealous", "disbelieving", "embarrassed", "wild" ]
+        }, 
+        {
+            "id": "0200502C2V",
+            "videoSrc": "assets/videos/0200502C2Vdisappointed.mp4",
+            "answer": "disappointed",
+            "choices": [ "serious", "caring", "disappointed", "unsure" ]
+        },
+        {
+            "id": "0200502M5V",
+            "videoSrc": "assets/videos/0200502M5Vdisappointed.mp4",
+            "answer": "disappointed",
+            "choices": [ "afraid", "desperate", "jealous", "disappointed" ]
+        },
+        {
+            "id": "0200502Y7V",
+            "videoSrc": "assets/videos/0200502Y7Vdisappointed.mp4",
+            "answer": "disappointed",
+            "choices": [ "disappointed", "calm", "unsure", "thinking" ]
+        },
+        {
+            "id": "1800201C4V",
+            "videoSrc": "assets/videos/1800201C4Vbothered.mp4",
+            "answer": "bothered",
+            "choices": [ "uncaring", "bothered", "gloomy", "panicked" ]
+        },
+        {
+            "id": "1800201S3V",
+            "videoSrc": "assets/videos/1800201S3Vbothered.mp4",
+            "answer": "bothered",
+            "choices": [ "sneaky", "amused", "bothered", "bored" ]
+        },
+        {
+            "id": "1800201C5V",
+            "videoSrc": "assets/videos/1800201C5Vbothered.mp4",
+            "answer": "bothered",
+            "choices": [ "keen", "relieved", "disbelieving", "bothered" ]
+        },
+        {
+            "id": "0300201C5V",
+            "videoSrc": "assets/videos/0300201C5Vamused.mp4",
+            "answer": "amused",
+            "choices": [ "curious", "interested", "honest", "amused" ]
+        },
+        {
+            "id": "0300201C6V",
+            "videoSrc": "assets/videos/0300201C6Vamused.mp4",
+            "answer": "amused",
+            "choices": [ "amused", "relieved", "sneaky", "cheeky" ]
+        },
+        {
+            "id": "0300201S5V",
+            "videoSrc": "assets/videos/0300201S5Vamused.mp4",
+            "answer": "amused",
+            "choices": [ "sure", "amused", "keen", "curious" ]
+        }
+    ],
+    "dictionary": {
+        "continue": {
+            "en": "Continue",
+            "fr": "Continuer"
+        },
+        "instructions1": {
+            "en": [
+                "In this task you will watch videos of people's faces.",
+                "Each film will be followed by four words.",
+                "Choose the word that best describes how the person is feeling, by clicking on it.",
+                "If you feel that more than one word is correct, please choose the word which you consider to be the best.",
+                "If you really don’t know the meaning of a word you can look it up in the definition handout.",
+                "Click continue to practice."
+            ],
+            "fr": [
+                "Dans cette tâche, tu regarderas des vidéos de visages de différentes personnes.",
+                "Chaque vidéo sera suivi de 4 mots.",
+                "Choisis le mot qui décris le mieux la manière dont la personne se sent, en cliquant sur ce dernier.",
+                "Si tu as l’impression qu’il y a plusieurs bonnes réponses, choisis celle que tu trouves la meilleure.",
+                "Si tu ne sais vraiment pas ce qu’un mot signifie, tu peux me le demander.",
+                "Appuie sur « Continuer » pour faire une pratique."
+            ]
+        },
+        "after-demo-instructions": {
+            "en": [
+                "End of practice.",
+                "Click continue to start the task."
+            ],
+            "fr": [
+                "Fin de la pratique.",
+                "Appuie sur « Continuer » pour commencer la tâche."
+            ]
+        },
+        "finish-thanks": {
+            "en": [
+                "Thank you for your participation."
+            ],
+            "fr": [
+                "Merci de votre participation."
+            ]
+        },
+        "afraid": {
+            "en": "Afraid",
+            "fr": "Apeuré"
+        },
+        "amused": {
+            "en": "Amused",
+            "fr": "Amusé"
+        },
+        "angry": {
+            "en": "Angry",
+            "fr": "Fâché"
+        },
+        "annoyed": {
+            "en": "Annoyed",
+            "fr": "Agacé"
+        },
+        "ashamed": {
+            "en": "Ashamed",
+            "fr": "Honteux"
+        },
+        "believing": {
+            "en": "Believing",
+            "fr": "Confiant"
+        },
+        "bored": {
+            "en": "Bored",
+            "fr": "Ennuyé"
+        },
+        "bothered": {
+            "en": "Bothered",
+            "fr": "Embêté"
+        },
+        "calm": {
+            "en": "Calm",
+            "fr": "Calme"
+        },
+        "caring": {
+            "en": "Caring",
+            "fr": "Attentif"
+        },
+        "cheeky": {
+            "en": "Cheeky",
+            "fr": "Effronté"
+        },
+        "curious": {
+            "en": "Curious",
+            "fr": "Curieux"
+        },
+        "desperate": {
+            "en": "Desperate",
+            "fr": "Désespéré"
+        },
+        "disappointed": {
+            "en": "Disappointed",
+            "fr": "Déçu"
+        },
+        "disbelieving": {
+            "en": "Disbelieving",
+            "fr": "Sceptique"
+        },
+        "disgusted": {
+            "en": "Disgusted",
+            "fr": "Dégoûté"
+        },
+        "embarrassed": {
+            "en": "Embarrassed",
+            "fr": "Embarrassé"
+        },
+        "fond": {
+            "en": "Fond",
+            "fr": "Amoureux"
+        },
+        "furious": {
+            "en": "Furious",
+            "fr": "Furieux"
+        },
+        "gloomy": {
+            "en": "Gloomy",
+            "fr": "Déprimé"
+        },
+        "hateful": {
+            "en": "Hateful",
+            "fr": "Haîneux"
+        },
+        "honest": {
+            "en": "Honest",
+            "fr": "Honête"
+        },
+        "hopeful": {
+            "en": "Hopeful",
+            "fr": "Optimiste"
+        },
+        "hurt": {
+            "en": "Hurt",
+            "fr": "Blessé"
+        },
+        "ignoring": {
+            "en": "Ignoring",
+            "fr": "Indifférent"
+        },
+        "interested": {
+            "en": "Interested",
+            "fr": "Intéressé"
+        },
+        "jealous": {
+            "en": "Jealous",
+            "fr": "Jaloux"
+        },
+        "joking": {
+            "en": "Joking",
+            "fr": "Blagueur"
+        },
+        "keen": {
+            "en": "Keen",
+            "fr": "Enthousiaste"
+        },
+        "kind": {
+            "en": "Kind",
+            "fr": "Gentil"
+        },
+        "liked": {
+            "en": "Liked",
+            "fr": "Apprécié"
+        },
+        "liking": {
+            "en": "Liking",
+            "fr": "Admiratif"
+        },
+        "lonely": {
+            "en": "Lonely",
+            "fr": "Seul"
+        },
+        "loving": {
+            "en": "Loving",
+            "fr": "Affectueux"
+        },
+        "mean": {
+            "en": "Mean",
+            "fr": "Méchant"
+        },
+        "nervous": {
+            "en": "Nervous",
+            "fr": "Nerveux"
+        },
+        "panicked": {
+            "en": "Panicked",
+            "fr": "Paniqué"
+        },
+        "playful": {
+            "en": "Playful",
+            "fr": "Espiègle"
+        },
+        "polite": {
+            "en": "Polite",
+            "fr": "Poli"
+        },
+        "relieved": {
+            "en": "Relieved",
+            "fr": "Soulagé"
+        },
+        "serious": {
+            "en": "Serious",
+            "fr": "Sérieux"
+        },
+        "sad": {
+            "en": "Sad",
+            "fr": "Triste"
+        },
+        "shy": {
+            "en": "Shy",
+            "fr": "Gêné"
+        },
+        "sneaky": {
+            "en": "Sneaky",
+            "fr": "Sournois"
+        },
+        "sorry": {
+            "en": "Sorry",
+            "fr": "Désolé"
+        },
+        "sure": {
+            "en": "Sure",
+            "fr": "Certain"
+        },
+        "stubborn": {
+            "en": "Stubborn",
+            "fr": "Têtu"
+        },
+        "surprised": {
+            "en": "Surprised",
+            "fr": "Surpris"
+        },
+        "thinking": {
+            "en": "Thinking",
+            "fr": "Pensif"
+        },
+        "tired": {
+            "en": "Tired",
+            "fr": "Fatigué"
+        },
+        "uncaring": {
+            "en": "Uncaring",
+            "fr": "Indifférent"
+        },
+        "undecided": {
+            "en": "Undecided",
+            "fr": "Indécis"
+        },
+        "unfriendly": {
+            "en": "Unfriendly",
+            "fr": "Hostile"
+        },
+        "unkind": {
+            "en": "Unkind",
+            "fr": "Méchant"
+        },
+        "unsure": {
+            "en": "Unsure",
+            "fr": "Incertain"
+        },
+        "upset": {
+            "en": "Upset",
+            "fr": "Bouleversé"
+        },
+        "wild": {
+            "en": "Wild",
+            "fr": "Fou"
+        },
+        "worried": {
+            "en": "Worried",
+            "fr": "Inquiet"
+        }
+    }
+}
