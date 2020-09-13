@@ -5,5 +5,5 @@ export class TestSlideInstructions implements TestSlide {
     public isQuestion = false;
     public isDemo = false;
     public isBreak = false;
-    constructor(public id: string, public instructions: Array<string>) {}
+    constructor(public id: string, public instructions: string | Array<string>) {}
 }

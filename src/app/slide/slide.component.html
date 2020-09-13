@@ -1,8 +1,7 @@
 <ng-container *ngIf="slide.isInstructions">
-  <p *ngFor="let line of slide.instructions">{{line}}</p>
+  <p *ngFor="let line of testManager.translate(slide.instructions)">{{line}}</p>
 </ng-container>
 <ng-container *ngIf="slide.isQuestion">
-  <p *ngIf="slide.isDemo">Demo</p>
   <video autoplay [src]="slide.videoSrc" (click)="toggleVideo($event)" width="600" height="400" #videoPlayer>
     Browser not supported
   </video>

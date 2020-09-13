@@ -25,6 +25,10 @@ export class TestCompleteComponent implements OnInit {
     }
   }
 
+  public getFinishThanks(): string | Array<string> {
+    return this.testManager.getFinishThanks();
+  }
+
   public save(): void {
     this.testManager.downloadResults();
   }

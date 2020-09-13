@@ -15,9 +15,10 @@ export interface TestDataSlide {
 }
 
 export interface TestData {
-  instructions: Array<string>;
+  instructions: string;
   demoSlides: Array<TestDataSlide>;
-  demoCompleteInstructions?: Array<string>;
+  demoCompleteInstructions?: string;
+  finishThanks?: string;
   slides: Array<TestDataSlide>;
   dictionary?: any;
   avg: number;
@@ -126,6 +127,10 @@ export class TestManagerService {
   public recordAnswer(id: string, answer: string): void {
     this.answers.set(id, answer);
     sessionStorage.setItem('answers', JSON.stringify(Array.from(this.answers.entries())));
+  }
+
+  public getFinishThanks(): string | Array<string> {
+    return this.translate(this.testData.finishThanks);
   }
 
   private shuffleArray(array: Array<any>): void {

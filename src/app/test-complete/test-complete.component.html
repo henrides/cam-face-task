@@ -1,3 +1,7 @@
-<p>test-complete works!</p>
-<p (click)="save()">Save</p>
-<p (click)="restart()">Restart</p>
+<div class="test-instructions">
+    <p *ngFor="let line of getFinishThanks()">{{line}}</p>
+    <div class="actions">
+        <button mat-raised-button color="secondary" (click)="save()">Sauvegarder</button>
+        <button mat-raised-button color="secondary" (click)="restart()">Recommencer</button>
+    </div>
+</div>

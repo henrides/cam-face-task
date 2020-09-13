@@ -1,0 +1,12 @@
+{
+    "tests": [
+        {
+            "id": "cam-face-task",
+            "title": "CAM Face Task",
+            "description": "descriptionnnnnnn fkfks",
+            "credits": "Credits a ...",
+            "languages": ["en", "fr"],
+            "source": "assets/cam-face-task.json"
+        }
+    ]
+}

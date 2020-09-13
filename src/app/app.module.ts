@@ -11,6 +11,7 @@ import { TestCompleteComponent } from './test-complete/test-complete.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonToggleModule } from '@angular/material/button-toggle';
 import { MatButtonModule } from '@angular/material/button';
+import { MatSelectModule } from '@angular/material/select';
 import { FormsModule } from '@angular/forms';
 import { TestTranslatePipe } from './test-translate.pipe';
 
@@ -30,7 +31,8 @@ import { TestTranslatePipe } from './test-translate.pipe';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatButtonToggleModule,
-    MatButtonModule
+    MatButtonModule,
+    MatSelectModule
   ],
   providers: [],
   bootstrap: [AppComponent]

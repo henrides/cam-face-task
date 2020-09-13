@@ -1,3 +1,4 @@
+import { TestManagerService } from './../test-manager.service';
 import { Component, OnInit, ViewChild, ElementRef, Input, Output, EventEmitter, OnChanges } from '@angular/core';
 import { TestSlide } from '../test-slide';
 
@@ -13,7 +14,7 @@ export class SlideComponent implements OnInit, OnChanges {
 
   private value: string;
 
-  constructor() { }
+  constructor(public testManager: TestManagerService) { }
 
   ngOnInit(): void {
   }

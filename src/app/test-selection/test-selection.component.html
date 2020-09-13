@@ -1,6 +1,20 @@
 <div class="test-instructions">
-    <p>Please Select Test</p>
-    <p>drop-down</p>
-    <p>title, description, credits</p>
-    <button class="continue" mat-raised-button color="primary" (click)="continue()">Continuer</button>
+    <div>
+        <mat-label>Veuillez choisir un test:</mat-label> 
+        <mat-select [(ngModel)]="selectedTest">
+            <mat-option *ngFor="let test of tests" [value]="test">{{test.title}}</mat-option>
+        </mat-select>
+    </div>
+    <div *ngIf="selectedTest">
+        <h4>{{selectedTest.title}}</h4>
+        <p>{{selectedTest.description}}</p>
+        <p>{{selectedTest.credits}}</p>
+        <div>
+            <mat-label>Langue:</mat-label>
+            <mat-select [(ngModel)]="selectedLanguage">
+                <mat-option *ngFor="let lang of selectedTest.languages" [value]="lang">{{lang}}</mat-option>
+            </mat-select>
+        </div>
+    </div>
+    <button *ngIf="canContinue()" class="continue" mat-raised-button color="primary" (click)="continue()">Continuer</button>
 </div>

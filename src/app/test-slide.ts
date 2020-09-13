@@ -5,7 +5,7 @@ export interface TestSlide {
   isDemo: boolean;
   isBreak: boolean;
 
-  instructions?: Array<string>;
+  instructions?: string | Array<string>;
 
   videoSrc?: string;
   choices?: Array<string>;
